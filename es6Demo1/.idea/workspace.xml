@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b931335-5ce4-43bf-b1a0-42634d907258" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/es6Test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babylon/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babylon/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babylon/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babylon/bin/babylon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babylon/bin/generate-identifier-regex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babylon/lib/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/babylon/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/build/Gruntfile.ls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/build/build.ls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/build/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/build/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/client/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/client/core.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/client/core.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/client/library.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/client/library.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/client/library.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/client/shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/client/shim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/client/shim.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/core/_.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/core/delay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/core/dict.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/core/function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/core/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/core/number.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/core/object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/core/regexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/core/string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es5/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/math.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/number.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/parse-float.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/parse-int.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/reflect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/regexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/typed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/weak-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es6/weak-set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es7/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es7/asap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es7/error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es7/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es7/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es7/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es7/math.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es7/object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es7/observable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es7/promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es7/reflect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es7/set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es7/string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es7/symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es7/system.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es7/weak-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/es7/weak-set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/_.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/concat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/copy-within.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/entries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/every.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/fill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/find-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/find.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/flat-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/flatten.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/for-each.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/from.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/includes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/index-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/is-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/join.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/last-index-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/pop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/push.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/reduce-right.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/reduce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/reverse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/shift.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/slice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/some.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/splice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/unshift.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/values.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/copy-within.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/entries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/every.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/fill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/find-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/find.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/flat-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/flatten.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/for-each.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/includes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/index-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/join.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/last-index-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/reduce-right.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/reduce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/slice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/some.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/array/virtual/values.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/asap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/clear-immediate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/date/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/date/now.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/date/to-iso-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/date/to-json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/date/to-primitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/date/to-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/delay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/dict.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/dom-collections/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/dom-collections/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/error/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/error/is-error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/function/bind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/function/has-instance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/function/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/function/name.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/function/part.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/function/virtual/bind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/function/virtual/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/function/virtual/part.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/get-iterator-method.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/get-iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/is-iterable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/json/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/json/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/map/from.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/map/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/map/of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/acosh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/asinh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/atanh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/cbrt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/clamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/clz32.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/cosh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/deg-per-rad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/degrees.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/expm1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/fround.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/fscale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/hypot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/iaddh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/imul.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/imulh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/isubh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/log10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/log1p.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/log2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/rad-per-deg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/radians.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/scale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/sign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/signbit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/sinh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/tanh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/trunc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/math/umulh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/number/constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/number/epsilon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/number/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/number/is-finite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/number/is-integer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/number/is-nan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/number/is-safe-integer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/number/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/number/max-safe-integer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/number/min-safe-integer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/number/parse-float.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/number/parse-int.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/number/to-fixed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/number/to-precision.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/number/virtual/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/number/virtual/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/number/virtual/to-fixed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/number/virtual/to-precision.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/assign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/classof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/define-getter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/define-properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/define-property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/define-setter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/define.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/entries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/freeze.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/get-own-property-descriptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/get-own-property-descriptors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/get-own-property-names.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/get-own-property-symbols.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/get-prototype-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/is-extensible.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/is-frozen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/is-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/is-sealed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/lookup-getter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/lookup-setter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/make.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/prevent-extensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/seal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/set-prototype-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/object/values.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/observable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/parse-float.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/parse-int.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/promise/finally.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/promise/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/promise/try.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/apply.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/construct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/define-metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/define-property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/delete-metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/delete-property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/enumerate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/get-metadata-keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/get-metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/get-own-metadata-keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/get-own-metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/get-own-property-descriptor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/get-prototype-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/get.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/has-metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/has-own-metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/has.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/is-extensible.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/metadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/own-keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/prevent-extensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/set-prototype-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/reflect/set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/regexp/constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/regexp/escape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/regexp/flags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/regexp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/regexp/match.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/regexp/replace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/regexp/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/regexp/split.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/regexp/to-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/set-immediate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/set-interval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/set-timeout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/set/from.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/set/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/set/of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/anchor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/at.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/big.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/blink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/bold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/code-point-at.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/ends-with.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/escape-html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/fixed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/fontcolor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/fontsize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/from-code-point.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/includes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/italics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/match-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/pad-end.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/pad-start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/raw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/repeat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/small.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/starts-with.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/strike.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/sub.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/sup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/trim-end.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/trim-left.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/trim-right.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/trim-start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/trim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/unescape-html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/anchor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/at.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/big.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/blink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/bold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/code-point-at.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/ends-with.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/escape-html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/fixed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/fontcolor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/fontsize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/includes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/italics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/match-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/pad-end.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/pad-start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/repeat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/small.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/starts-with.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/strike.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/sub.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/sup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/trim-end.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/trim-left.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/trim-right.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/trim-start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/trim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/string/virtual/unescape-html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/async-iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/for.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/has-instance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/is-concat-spreadable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/key-for.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/match.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/observable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/replace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/species.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/split.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/to-primitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/to-string-tag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/symbol/unscopables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/system/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/system/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/typed/array-buffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/typed/data-view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/typed/float32-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/typed/float64-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/typed/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/typed/int16-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/typed/int32-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/typed/int8-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/typed/uint16-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/typed/uint32-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/typed/uint8-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/typed/uint8-clamped-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/weak-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/weak-map/from.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/weak-map/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/weak-map/of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/weak-set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/weak-set/from.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/weak-set/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/fn/weak-set/of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/_.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/concat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/copy-within.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/entries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/every.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/fill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/find-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/find.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/flat-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/flatten.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/for-each.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/from.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/includes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/index-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/is-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/join.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/last-index-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/pop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/push.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/reduce-right.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/reduce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/reverse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/shift.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/slice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/some.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/splice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/unshift.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/values.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/copy-within.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/entries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/every.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/fill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/find-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/find.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/flat-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/flatten.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/for-each.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/includes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/index-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/join.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/last-index-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/reduce-right.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/reduce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/slice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/some.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/array/virtual/values.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/asap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/clear-immediate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/date/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/date/now.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/date/to-iso-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/date/to-json.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/date/to-primitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/date/to-string.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/delay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/dict.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/error/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/error/is-error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/get-iterator-method.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/get-iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/is-iterable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/json/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/json/stringify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/map/from.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/map/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/map/of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/acosh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/asinh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/atanh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/cbrt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/clamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/clz32.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/cosh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/deg-per-rad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/degrees.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/expm1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/fround.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/fscale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/hypot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/iaddh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/imul.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/imulh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/isubh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/log10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/log1p.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/log2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/rad-per-deg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/radians.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/scale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/sign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/signbit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/sinh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/tanh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/trunc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/math/umulh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/number/constructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/number/epsilon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/number/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/number/is-finite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/number/is-integer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/number/is-nan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/number/is-safe-integer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/number/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/number/max-safe-integer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/number/min-safe-integer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/number/parse-float.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/number/parse-int.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/number/to-fixed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/number/to-precision.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/number/virtual/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/number/virtual/iterator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/number/virtual/to-fixed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/number/virtual/to-precision.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/assign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/classof.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/create.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/define-getter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/define-properties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/define-property.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/define.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/entries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/freeze.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/get-own-property-descriptors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/get-own-property-names.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/get-own-property-symbols.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/get-prototype-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/is-frozen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/is-object.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/is-sealed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/lookup-getter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/lookup-setter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/make.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/prevent-extensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/seal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/object/set-prototype-of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/observable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/parse-float.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/parse-int.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/set-immediate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/set-interval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/set-timeout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/set/from.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/set/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/set/of.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/typed/array-buffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/typed/data-view.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/typed/float32-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/typed/float64-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/typed/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/typed/int16-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/typed/int32-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/typed/int8-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/typed/uint16-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/typed/uint32-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/typed/uint8-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/typed/uint8-clamped-array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/weak-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/fn/weak-set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/library/shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/stage/0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/stage/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/stage/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/stage/3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/stage/4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/stage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/stage/pre.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/web/dom-collections.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/web/immediate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/web/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/core-js/web/timers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/F.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/__.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/_convertBrowser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/_falseOptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/_mapping.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/add.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/any.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/ary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/assignAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/assignInAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/assignInWith.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/assoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/before.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/bindAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/bindKey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/camelCase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/chain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/clamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/clone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/cloneDeep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/compact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/complement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/compose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/cond.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/conforms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/contains.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/convert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/countBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/curryN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/debounce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/deburr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/defaultTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/defer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/difference.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/differenceBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/differenceWith.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/dissocPath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/divide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/dropLast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/dropLastWhile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/dropRightWhile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/endsWith.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/equals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/escape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/extend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/findIndex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/flatten.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/flattenDeep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/flattenDepth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/floor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/flowRight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/forOwn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/get.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/getOr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/gte.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/hasIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/head.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/identical.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/indexBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/initial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/intersection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/invokeArgs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/isArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/isEqual.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/isInteger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/isLength.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/isMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/isMatch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/isMatchWith.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/isRegExp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/isSafeInteger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/isSymbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/juxt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/keyBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/last.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/lastIndexOfFrom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/lowerCase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/math.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/mean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/meanBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/memoize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/mergeAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/methodOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/minBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/nthArg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/once.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/padChars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/partition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/pick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/pipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/pluck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/propEq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/pull.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/pullAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/rangeRight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/rangeStepRight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/rearg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/reduce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/reduceRight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/result.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/reverse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/sampleSize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/seq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/setWith.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/shuffle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/size.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/slice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/some.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/sortBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/sortedLastIndexBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/sortedLastIndexOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/startCase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/sumBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/symmetricDifferenceBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/take.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/takeLastWhile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/takeRight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/takeWhile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/templateSettings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/thru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/toJSON.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/toString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/toUpper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/trimCharsStart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/trimStart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/unary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/useWith.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/values.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/words.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/wrapperAt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/wrapperChain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/wrapperReverse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/wrapperValue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/zipAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/lodash/fp/zipObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/bin/cmd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/bin/usage.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/examples/pow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/readme.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/chmod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/clobber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/mkdirp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/opts_fs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/opts_fs_sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/perm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/perm_sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/race.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/rel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/return.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/return_sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/root.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/umask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/mkdirp/test/umask_sync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/wrappy/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/wrappy/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/wrappy/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/wrappy/wrappy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/es6Demo1/index.html" />
+        <option value="$PROJECT_DIR$/es6Demo1/.babelrc" />
+        <option value="$PROJECT_DIR$/es6Demo1/src/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="249" />
+    <option name="y" value="54" />
+    <option name="width" value="734" />
+    <option name="height" value="867" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../es6Demo1" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/es6Demo1/src">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b931335-5ce4-43bf-b1a0-42634d907258" name="Default Changelist" comment="" />
+      <created>1555553593628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555553593628</updated>
+      <workItem from="1555553599690" duration="1470000" />
+      <workItem from="1555555541705" duration="2867000" />
+      <workItem from="1555558816397" duration="39000" />
+      <workItem from="1555559004123" duration="218000" />
+      <workItem from="1555559502464" duration="291000" />
+      <workItem from="1555559902642" duration="280000" />
+      <workItem from="1555560361256" duration="817000" />
+      <workItem from="1555562330976" duration="970000" />
+      <workItem from="1555569063715" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6968000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18617772" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32884097" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29245284" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/es6Demo1/.babelrc" />
+    <entry file="file://$PROJECT_DIR$/es6Demo1/index.html" />
+    <entry file="file://$PROJECT_DIR$/es6Demo1/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6Demo1/dist/index.js" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.jsccd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

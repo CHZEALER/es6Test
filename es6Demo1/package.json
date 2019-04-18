@@ -1,0 +1,24 @@
+{
+  "name": "es6Test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/index.js -o dist/index.jsccd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CHZEALER/es6Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CHZEALER/es6Test/issues"
+  },
+  "homepage": "https://github.com/CHZEALER/es6Test#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}

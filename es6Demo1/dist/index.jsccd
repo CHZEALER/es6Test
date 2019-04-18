@@ -1,0 +1,7 @@
+"use strict";
+
+var a = yangye;
+{
+    var _a = zhangxiaoxuan;
+    console.log(_a);
+}
